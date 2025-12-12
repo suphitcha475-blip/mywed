@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f7fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4a90e2, #0078ff);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin-top: 15px;
+            font-size: 2.2em;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            border-left: 5px solid #0078ff;
+            padding-left: 10px;
+            color: #0078ff;
+        }
+
+        .info p {
+            line-height: 1.7;
+            font-size: 1.05em;
+        }
+
+        .skills span {
+            display: inline-block;
+            margin: 5px 7px 5px 0;
+            background: #0078ff;
+            color: white;
+            padding: 7px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .certificates {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .cert-item {
+            background: #f9fbff;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .cert-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .cert-item:hover {
+            transform: scale(1.03);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #e3e9f0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="LINE_ALBUM_สทส.1_250610_1.jpg" alt="Profile Picture">
+        <h1>นางสาว สุพิชชา ศรีพระจันทร์</h1>
+        <p>ตำแหน่ง / นักศึกษา / IT Support / Developer</p>
+    </header>
+
+    <div class="container">
+
+        <div class="section info">
+            <h2>ข้อมูลส่วนตัว</h2>
+            <p><strong>อายุ:</strong>18 ปี</p>
+            <p><strong>อีเมล:</strong> example@email.com</p>
+            <p><strong>เบอร์โทร:</strong> 083-054-0385</p>
+            <p><strong>ที่อยู่:</strong> จังหวัดนครนายก</p>
+        </div>
+
+        <div class="section">
+            <h2>ทักษะ (Skills)</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Networking</span>
+                <span>Cybersecurity</span>
+                <span>Graphic Design</span>
+            </div>
+        </div>
+
+               <div class="section">
+            <h2>เกียรติบัตร (Certificates)</h2>
+            <div class="certificates">
+                <div class="cert-item">
+                    <img src="Screenshot 2025-12-12 111336.png" alt="Certificate 1">
+                </div>
+
+                <div class="cert-item">
+                    <img src="Screenshot 2025-12-12 111414.png" alt="Certificate 2">
+                </div>
+
+                <div class="cert-item">
+                    <img src="Screenshot 2025-12-12 111438.png" alt="Certificate 3">
+                
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 My Portfolio
+    </footer>
+
+</body>
+</html>
